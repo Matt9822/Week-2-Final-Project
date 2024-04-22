@@ -44,6 +44,13 @@ input {
   opacity: 0.4;
 }
 
+h2 {
+    font-size: 48px;
+    width: 100%;
+    color: #243e63;
+}
+
+
 .no__cursor {
   cursor: not-allowed;
 }
@@ -195,4 +202,23 @@ HEADER
 
 .header__right--img {
   width: 100%;
+}
+
+/*
+
+FEATURES
+
+*/
+
+.row__features {
+    text-align: center;
+}
+
+.highlight__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.highlight {
+    width: calc(100%/3);
 }

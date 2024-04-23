@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  border-color: rgb(226, 232, 240);
 }
 
 html {
@@ -53,8 +54,23 @@ h2 {
   letter-spacing: 0.025em;
   font-weight: 900;
   font-size: 48px;
+  margin-top: 16px;
   width: 100%;
   color: #243e63;
+}
+
+.section__row {
+  display: flex;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 96px 0;
+}
+
+.section__heading {
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  font-size: 16px;
 }
 
 .no__cursor {
@@ -68,7 +84,6 @@ h2 {
 .row {
   width: 100%;
   max-width: 1328px;
-  padding: 0 16px;
   margin: 0 auto;
 }
 
@@ -286,3 +301,109 @@ FEATURES
   margin: 8px 0 0 16px;
   max-width: 100%/3;
 }
+
+/*
+
+QUALITY
+
+*/
+
+.header__quality--left {
+  width: 50%;
+  padding: 32px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__quality--left--para {
+  margin-top: 16px;
+  font-weight: 500;
+  line-height: 1.625;
+  font-size: 18px;
+  width: 100%;
+  max-width: 470px;
+}
+
+.header__quality--right {
+  width: 50%;
+}
+
+.quality__img {
+  width: 100%;
+  border: solid 1px rgb(226, 232, 240);;
+  border-radius: 4px;
+}
+
+.header__left--btn {
+  background-color: #6415ff;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  width: 100%;
+  max-width: 142px;
+  margin-top: 32px;
+  padding: 14px 32px;
+  border-radius: 100px;
+  transition: all 300ms ease;
+}
+
+/*
+
+STEPS
+
+*/
+
+
+
+.steps__left {
+  width: 50%;
+}
+
+.steps__left--img {
+  width: 100%;
+  max-width: 640px;
+}
+
+.steps__right {
+  width: 50%;
+  padding: 32px 0;
+  margin-left: 48px;
+}
+
+.steps__ul {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.steps__li {
+  display: flex;
+  margin-top: 32px;
+}
+
+.list__number {
+  font-size: 36px;
+  color: #cbd5e0;
+  font-weight: 600;
+}
+
+.list__text--wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+
+
+.steps__list--heading {
+  font-size: 20px;
+  color: #243e63;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.steps__para {
+  margin-top: 12px;
+  max-width: 320px;
+}
+

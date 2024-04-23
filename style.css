@@ -12,6 +12,7 @@ html {
 }
 
 body {
+  max-width: 100vw;
   padding: 32px;
 }
 
@@ -32,6 +33,10 @@ h1 {
   font-size: 48px;
 }
 
+p {
+  color: #7c8ba1;
+}
+
 input {
   padding: 20px 192px 20px 32px;
   border-style: solid;
@@ -45,11 +50,12 @@ input {
 }
 
 h2 {
-    font-size: 48px;
-    width: 100%;
-    color: #243e63;
+  letter-spacing: 0.025em;
+  font-weight: 900;
+  font-size: 48px;
+  width: 100%;
+  color: #243e63;
 }
-
 
 .no__cursor {
   cursor: not-allowed;
@@ -118,9 +124,9 @@ h2 {
   transition: all 300ms ease;
 }
 
-/* 
+/*
 
-HEADER 
+HEADER
 
 */
 
@@ -210,15 +216,73 @@ FEATURES
 
 */
 
-.row__features {
-    text-align: center;
+.features__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.highlight__wrapper {
-    display: flex;
-    flex-wrap: wrap;
+.section__title {
+  margin-bottom: 16px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.features__heading--para {
+  font-weight: 500;
+  margin: 16px 0 24px;
+  max-width: 576px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.container__features {
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 96px 0;
+}
+
+.container__highlights {
+  padding-top: 20px;
+  display: flex;
+  width: 100%;
 }
 
 .highlight {
-    width: calc(100%/3);
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.highlights__wrapper {
+  display: flex;
+  padding: 32px 8px;
+  width: calc(100% / 3);
+}
+
+.highlight__img {
+  max-width: 70px;
+  max-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(226, 232, 240);
+}
+
+.highlight__text--para {
+  display: flex;
+  font-weight: 500;
+  line-height: 2;
+  color: #7c8ba1;
+  margin-top: 16px;
+}
+
+.highlight__text {
+  margin: 8px 0 0 16px;
+  max-width: 100%/3;
 }

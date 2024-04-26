@@ -526,6 +526,10 @@ PRICING
 
 */
 
+.plans {
+  display: flex;
+}
+
 .pricing__heading {
   display: flex;
   flex-direction: column;
@@ -542,14 +546,24 @@ PRICING
   font-size: 18px;
 }
 
-.plan__personal {
-  position: absolute;
+.plan__personal,
+.plan__business {
   display: flex;
   flex-direction: column;
   margin: 64px 32px 0 0;
-  padding: 8px 32px 0;
   width: 100%;
   max-width: 384px;
+  border: 1px solid rgb(226, 232, 240);
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px rgb(226, 232, 240), -1px -1px 2px rgb(226, 232, 240);
+}
+
+.plan__styling {
+  height: 8px;
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
 .personal__pricing {
@@ -591,5 +605,194 @@ PRICING
   border-bottom-width: 2px;
   border-color: rgb(226, 232, 240);;
   padding: 32px;
-  margin: 0 -32px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.plans__features {
+  margin-top: 20px;
+  color: #718096;
+  font-weight: 500;
+}
+
+.plans__features--heading {
+  color: #1a202c;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+}
+
+
+.plans__btn {
+  padding: 16px 32px;
+  border-radius: 100px;
+  border: solid;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  font-size: 14px;
+  width: 100%;
+}
+
+.personal__btn {
+  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+  color: white;
+}
+
+.business__btn {
+  background-color: #f7fafc;
+  border-color: #f7fafc;
+  color: #6415ff;
+}
+
+  .enterprise__btn {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    color: white;
+  }
+
+.personal__btn--wrapper {
+  margin: 0 auto;
+  padding: 32px;
+  width: 100%;
+  max-width: 276px;
+}
+
+.plan__business {
+  background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.plans__features--business {
+  color: #e2e8f0;
+}
+
+.plans__features--heading--business {
+  color: #f7fafc;
+}
+
+.pricing__span--business--name,
+.pricing__span--business--price {
+  color: #f7fafc;
+}
+
+.pricing__span--business--duration {
+  color: #EDF2F7;
+}
+
+.plan__styling--business {
+  opacity: 0;
+}
+
+.plan__styling--enterprise {
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+/*
+
+TESTIMONIALS
+
+*/
+
+.test {
+  display: flex;
+}
+
+.test__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.test__img {
+  width: 100%;
+}
+
+.test__right {
+  padding-left: 64px;
+  width: 60%;
+}
+
+.test__heading--para {
+  margin-top: 24px;
+}
+
+.testimonial {
+  margin-top: 40px;
+}
+
+.fa-star {
+  margin-right: 1px;
+  color: rgb(246 173 85);
+}
+
+.test__heading {
+  margin-top: 16px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #243e63;
+}
+
+.test__para {
+  color: #4a5568;
+  font-size: 16px;
+  margin: 16px 0 40px;
+  line-height: 1.625;
+  font-weight: 500;
+}
+
+.test__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.test__footer--left {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 248px;
+}
+
+.test__footer--img--wrapper {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.test__name {
+  margin-left: 24px;
+  width: 100%;
+}
+
+.test__footer--name {
+  color: #243e63;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.test__name--job {
+  font-weight: 500;
+}
+
+.test__footer--img {
+  border-radius: 100px;
+  max-width: 80px;
+  width: 100%;
+}
+
+.test__footer--right {
+  display: flex;
+}
+
+.test__btns {
+  color: rgb(100 21 255);
+  padding: 16px 19px;
+  margin: 0 12px;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: rgb(237 242 247);
+  background-color: rgb(237 242 247);
+  font-size: 16px;
+}
+
+.test__btn--divider {
+  
 }

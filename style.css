@@ -93,7 +93,7 @@ h2 {
   max-width: 1024px;
 }
 
-/* 
+/*
 
 NAV
 
@@ -520,7 +520,7 @@ VALUES
   width: 100%;
 }
 
-/* 
+/*
 
 PRICING
 
@@ -794,5 +794,101 @@ TESTIMONIALS
 }
 
 .test__btn--divider {
-  
+  border: solid;
+  margin: 15px 0 15px 0;
+  border-right-width: 1px;
+  border-left-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-color: rgb(226, 232, 240);
+}
+
+/*
+
+FAQS
+
+*/
+
+.faq {
+  width: 100%;
+}
+
+.faq__header {
+  text-align: center;
+  width: 100%;
+}
+
+.faq__para {
+  margin: 16px auto 0 auto ;
+  width: 100%;
+  max-width: 576px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.625;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.question {
+  padding: 16px 40px;
+  margin-top: 20px;
+  background-color: #EDF2F7;
+  width: 100%;
+  max-width: 896px;
+  border-radius: 10px;
+}
+
+.question__para {
+  color: #2d3748;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/*
+
+END
+
+*/
+
+.row__end {
+  width: 100%;
+  max-width: 1280px;
+}
+
+.end {
+  display: flex;
+  width: 100%;
+  max-width: 1280px;
+  height: 240px;
+  background-color: rgb(100 21 255);
+}
+
+.end__body {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.end__body--header {
+  color: #f7fafc;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  width: 100%;
+  max-width: 478px;
+}
+
+.end__body--btns {
+
+}
+
+.end__btns {
+
 }

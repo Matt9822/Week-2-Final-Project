@@ -1267,4 +1267,17 @@ h2 {
 .principle__wrapper {
   justify-content: center;
 }
+
+.test__btns {
+  padding: 5px 8px;
+  margin: 10px 5px 0 5px;
+}
+
+.test__footer {
+  flex-direction: column;
+}
+
+.test__btn--divider {
+  margin: 14px 0 6px 0;
+}
 }

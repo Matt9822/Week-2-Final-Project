@@ -233,6 +233,24 @@ NAV
   transition: all 300ms ease;
 }
 
+.btn__stack {
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+
+.btn__stack:hover {
+  color: #6415ff;
+}
+
+.btn__close:hover {
+  color: #6415ff;
+}
+
+.btn__close {
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+
 /*
 
 HEADER

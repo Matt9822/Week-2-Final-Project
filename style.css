@@ -1263,4 +1263,8 @@ h2 {
   padding: 40px 0 0 0;
   font-size: 25px;
 }
+
+.principle__wrapper {
+  justify-content: center;
+}
 }

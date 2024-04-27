@@ -449,7 +449,7 @@ QUALITY
 
 .quality__img {
   width: 100%;
-  border: solid 1px rgb(226, 232, 240);;
+  border: solid 1px rgb(226, 232, 240);
   border-radius: 4px;
 }
 
@@ -539,77 +539,77 @@ VALUES
   padding: 32px 0;
 }
 
- .values__heading {
+.values__heading {
   width: 100%;
   max-width: 576px;
- }
+}
 
- .values__heading--para {
+.values__heading--para {
   margin-top: 32px;
   font-size: 18px;
   line-height: 1.625;
   font-weight: 500;
   max-width: 576px;
- }
+}
 
- .principle__wrapper {
+.principle__wrapper {
   display: flex;
- }
+}
 
- .affordable__wrapper {
+.affordable__wrapper {
   width: 100%;
   max-width: 280px;
   margin: 32px 32px 0 0;
- }
+}
 
- .professionalism__wrapper {
+.professionalism__wrapper {
   display: flex;
   flex-direction: column;
   width: 100%;
   max-width: 280px;
   margin-top: 32px;
- }
+}
 
- .principle__point {
+.principle__point {
   display: flex;
   align-items: center;
   font-size: 20px;
   font-weight: 700;
   color: #243e63;
- }
+}
 
- .pro {
+.pro {
   margin-left: 16px;
- }
+}
 
- .Professionalism__icon {
+.Professionalism__icon {
   border-radius: 100px;
   padding: 8px;
   background-color: #feb2b2;
   color: rgb(155 44 44);
- }
+}
 
- .affordable__icon {
+.affordable__icon {
   border-radius: 100px;
   padding: 8px 12.38px;
   background-color: #9ae6b4;
   color: rgb(39 103 73);
- }
+}
 
- .point__para {
+.point__para {
   color: #718096;
   font-size: 16px;
   margin-top: 16px;
   line-height: 1.625;
- }
+}
 
- .values__btn {
+.values__btn {
   display: flex;
   margin-top: 48px;
   max-width: 150px;
- }
+}
 
- .values__right {
+.values__right {
   width: 50%;
 }
 
@@ -660,7 +660,11 @@ PRICING
   width: 100%;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
 }
 
 .personal__pricing {
@@ -700,7 +704,7 @@ PRICING
   border-right: 0px;
   border-left: 0px;
   border-bottom-width: 2px;
-  border-color: rgb(226, 232, 240);;
+  border-color: rgb(226, 232, 240);
   padding: 32px;
   width: 100%;
   margin: 0 auto;
@@ -719,7 +723,6 @@ PRICING
   letter-spacing: 0.025em;
 }
 
-
 .plans__btn {
   padding: 16px 32px;
   border-radius: 100px;
@@ -731,7 +734,11 @@ PRICING
 }
 
 .personal__btn {
-  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
   color: white;
 }
 
@@ -741,10 +748,14 @@ PRICING
   color: #6415ff;
 }
 
-  .enterprise__btn {
-    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
-    color: white;
-  }
+.enterprise__btn {
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
+  color: white;
+}
 
 .personal__btn--wrapper {
   margin: 0 auto;
@@ -754,7 +765,11 @@ PRICING
 }
 
 .plan__business {
-  background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+  background-image: linear-gradient(
+    135deg,
+    rgb(76, 81, 191) 0%,
+    rgb(102, 126, 234) 100%
+  );
 }
 
 .plans__features--business {
@@ -771,7 +786,7 @@ PRICING
 }
 
 .pricing__span--business--duration {
-  color: #EDF2F7;
+  color: #edf2f7;
 }
 
 .plan__styling--business {
@@ -779,7 +794,11 @@ PRICING
 }
 
 .plan__styling--enterprise {
-  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
 }
 
 /*
@@ -916,7 +935,7 @@ FAQS
 }
 
 .faq__para {
-  margin: 16px auto 0 auto ;
+  margin: 16px auto 0 auto;
   width: 100%;
   max-width: 576px;
   font-size: 18px;
@@ -934,7 +953,7 @@ FAQS
 .question {
   padding: 16px 40px;
   margin-top: 20px;
-  background-color: #EDF2F7;
+  background-color: #edf2f7;
   width: 100%;
   max-width: 896px;
   border-radius: 10px;
@@ -1006,7 +1025,6 @@ END
   color: rgb(100 21 255);
 }
 
-
 .end__btn--right {
   background-color: rgb(100 21 255);
   transition: all 500ms ease;
@@ -1029,7 +1047,6 @@ FOOTER
 
 */
 
-
 .row__footer {
   /* width: 100%; */
   margin: 0 -32px -32px -32px;
@@ -1038,7 +1055,6 @@ FOOTER
 }
 
 .footer__body {
-  
 }
 
 .footer__body--lists {
@@ -1110,7 +1126,6 @@ FOOTER
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .footer__links {
@@ -1127,157 +1142,156 @@ FOOTER
   border-radius: 100px;
 }
 
-@media (max-width:1022px){
-
+@media (max-width: 1022px) {
   .btn__menu {
     display: block;
   }
-  
+
   .nav__links {
-  display: none;
-}
+    display: none;
+  }
 
   .header {
-  flex-direction: column;
-}
+    flex-direction: column;
+  }
 
-.header__left {
-  align-items: center;
-  width: 65%;
-}
+  .header__left {
+    align-items: center;
+    width: 65%;
+  }
 
-h1 {
-  font-size: 30px;
-  text-align: center;
-  font-weight: 600;
-}
+  h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+  }
 
-.header__para {
-  text-align: center;
-}
+  .header__para {
+    text-align: center;
+  }
 
-.header__input {
-  text-align: center;
-}
+  .header__input {
+    text-align: center;
+  }
 
-.header__customers {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .header__customers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.header__customers--img {
-  padding: 0;
-}
+  .header__customers--img {
+    padding: 0;
+  }
 
-h2 {
-  font-size: 30px;
-}
+  h2 {
+    font-size: 30px;
+  }
 
-.highlight {
-  display: flex;
-  justify-content: center;
-}
+  .highlight {
+    display: flex;
+    justify-content: center;
+  }
 
-.highlights__wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width: auto;
-}
+  .highlights__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: auto;
+  }
 
-.highlight__text--para {
-  width: 100%;
-  max-width: 400px;
-}
+  .highlight__text--para {
+    width: 100%;
+    max-width: 400px;
+  }
 
-.section__row {
-  flex-direction: column-reverse;
-}
+  .section__row {
+    flex-direction: column-reverse;
+  }
 
-.header__quality--left {
-  text-align: center;
-  align-items: center;
-}
+  .header__quality--left {
+    text-align: center;
+    align-items: center;
+  }
 
-.row__values {
-  flex-direction: column;
-  text-align: center;
-}
+  .row__values {
+    flex-direction: column;
+    text-align: center;
+  }
 
-.values__btn {
-  margin: 48px auto 0 auto;
-}
+  .values__btn {
+    margin: 48px auto 0 auto;
+  }
 
-.plans {
-  flex-direction: column;
-  align-items: center;
-}
+  .plans {
+    flex-direction: column;
+    align-items: center;
+  }
 
-.plan__personal {
-  margin-right: 0;
-}
+  .plan__personal {
+    margin-right: 0;
+  }
 
-.plan__business {
-  margin-right: 0;
-}
+  .plan__business {
+    margin-right: 0;
+  }
 
-.test {
-  flex-direction: column-reverse;
-  align-items: center;
-  text-align: center;
-}
+  .test {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
 
-.test__right {
-  padding: 0;
-}
+  .test__right {
+    padding: 0;
+  }
 
-.test__img {
-  margin-top: 20px;
-}
+  .test__img {
+    margin-top: 20px;
+  }
 
-.end__body {
-  flex-direction: column;
-  align-items: center;
-}
+  .end__body {
+    flex-direction: column;
+    align-items: center;
+  }
 
-.end__body--btns {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-}
+  .end__body--btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
 
-.end__body--top {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  text-align: center;
-}
+  .end__body--top {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
 
-.end__body--header {
-  max-width: 100%;
-  text-align: center;
-  padding: 40px 0 0 0;
-  font-size: 25px;
-}
+  .end__body--header {
+    max-width: 100%;
+    text-align: center;
+    padding: 40px 0 0 0;
+    font-size: 25px;
+  }
 
-.principle__wrapper {
-  justify-content: center;
-}
+  .principle__wrapper {
+    justify-content: center;
+  }
 
-.test__btns {
-  padding: 5px 8px;
-  margin: 10px 5px 0 5px;
-}
+  .test__btns {
+    padding: 5px 8px;
+    margin: 10px 5px 0 5px;
+  }
 
-.test__footer {
-  flex-direction: column;
-}
+  .test__footer {
+    flex-direction: column;
+  }
 
-.test__btn--divider {
-  margin: 14px 0 6px 0;
-}
+  .test__btn--divider {
+    margin: 14px 0 6px 0;
+  }
 }

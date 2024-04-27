@@ -1306,4 +1306,10 @@ FOOTER
     position: relative;
     max-width: 100%;
   }
+
+  input {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
 }

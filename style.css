@@ -1295,3 +1295,15 @@ FOOTER
     margin: 14px 0 6px 0;
   }
 }
+
+@media (max-width: 745px) {
+  .header__input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header__button {
+    position: relative;
+    max-width: 100%;
+  }
+}
